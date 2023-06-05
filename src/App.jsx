@@ -148,7 +148,7 @@ function App() {
             }}
           >
             <Header heading="Filter Options" color="#027ad6" />
-            <div>
+            <div className="btns__group container">
               <Button btnName="Save Data" onClick={saveDataToMongo} />
               <Button
                 btnName={!check ? "Reverse" : "Undo"}
